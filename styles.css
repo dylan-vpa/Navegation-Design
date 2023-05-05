@@ -1,0 +1,31 @@
+body {
+    background-color: lightsteelblue;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header {
+    padding: 0 25px 0 25px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    text-decoration: 2px underline;
+}
+
